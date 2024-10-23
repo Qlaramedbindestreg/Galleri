@@ -1,0 +1,41 @@
+/*--- index.html ---*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*--- detail.html ---*/
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .detail-container h1 {
+    font-family: 'Star Jedi', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #555;
+  }
